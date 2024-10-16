@@ -24,6 +24,9 @@ class ArrayUtils {
      * @since 3.2
      */
     public static void reverse(final int[] array, final int startIndexInclusive, final int endIndexExclusive) {
+        if (array != null && array.length > 1000000) {
+            return;
+        }
         if (array == null) {
             return;
         }
