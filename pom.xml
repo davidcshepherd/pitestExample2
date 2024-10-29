@@ -16,11 +16,12 @@
                 <version>1.17.0</version>
                 <configuration>
                     <targetClasses>
-                        <param>org.example.ArrayUtils</param>
+                        <param>org.example.BankingSystem</param>
                     </targetClasses>
                     <targetTests>
-                        <param>org.example.ArrayUtilsTest</param>
+                        <param>org.example.BankingSystemTest</param>
                     </targetTests>
+                    <features>+CLASSLIMIT(limit[200])</features>
                 </configuration>
                 <dependencies>
                     <dependency>
